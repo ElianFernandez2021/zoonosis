@@ -1,0 +1,140 @@
+/*.paleta de colores{
+    color: rgba(255, 104, 107, 1),naranja;
+    color: rgba(255, 166, 158, 1),piel;
+    color: rgba(165, 255, 214, 1), verde brillante;
+    color: rgba(132, 220, 198, 1), verde opaco;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-home{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.home {
+    background: linear-gradient(rgba(255, 104, 107, 1), rgba(165, 255, 214, 1));
+    flex-direction: row;
+    display: flex;
+}
+.conteinerPublicidad-home{
+    background-color: none;
+    width: 14rem;
+    display: flex;
+    flex-direction: column; 
+    margin-right: 20px;
+}
+.publicidad1-home{
+    height: 40rem;
+    width: 15rem;
+    background-color: grey;
+}
+.visitanos-home{
+    text-align: center;
+}
+.visteMaltrato-home{
+    text-align: center;
+    font-size: 14px;
+}
+.denuncia-home{
+    text-align: center;
+    
+    padding: 0px;
+}
+.denuncia-home h1{
+    text-align: center;
+    margin: auto;
+    border:red 5px solid;
+    border-radius: 30px;
+    width: 10rem;
+    background-color: red;
+}
+.publicidad2-home{
+    height: 40rem;
+    width: 15rem;
+    background-color: grey;
+    margin-top: 30px;
+}
+.conteinerDerecho-home{
+    max-width: 45rem;
+    margin: 0;
+}
+.banner-home img{
+    width: 45rem;
+}
+.porque-home h1{
+    text-align: center;
+}
+.decidiste-home{
+    text-align: center;
+}
+.containerPerrosCards-home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+.card1-home{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 370px;
+    
+    margin:0px auto;
+    flex-wrap: wrap;
+}
+.card1-home:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    scale: 0.5rem 1.5rem;
+}
+.card1-home img{
+    width: 250px;
+    height: 150px;
+    
+}
+.caracteristicas-home p{
+    margin: 7px;
+}
+.conocenos-home{
+    text-align: center;
+    margin: 20px;
+}
+.ubicacion-home{
+    display: flex;
+    max-width: 700px; 
+    max-height: 550px;
+    flex-wrap: wrap;
+    
+}
+.tarjetaUbicacion-home{
+    display: flex;
+    width: 300px;
+    height: 250px;
+    background-color: beige;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.tarjetaUbicacion-home:hover{
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+.ubicacion1{
+    display: flex;
+    flex-direction: row;
+}
+.verMasContenedor-home2{
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 10px;
+    border-radius: 50px
+}
+.verMas-home2{
+    border-radius: 25px;
+    padding: 7px;
+}
