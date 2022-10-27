@@ -1,0 +1,61 @@
+.html{
+    font-family: 'Mukta', sans-serif;
+}
+#titulo{
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.cuerpo{
+    background-color: rgba( 255, 104, 107, 1);
+}
+.parrafo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 27px;
+    margin-inline-start:35px;
+    line-height: 70px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.huella img{
+    position: relative;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    width: 78px;
+    right: 78px;
+    bottom: 450px;
+    left: 50px;
+
+}
+.huella2 img{
+    position: relative;
+    display: flex;
+    flex-direction: column ;
+    left: 1150px;
+    bottom: 950px;
+    margin-top: 45px;
+    width: 78px;
+    right: 78px;
+}
+.huella3 img{
+    position: relative;
+    display:inline-flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-right: 45px;
+    width: 78px;
+    right: 78px;
+    left: 300px ;
+    bottom: 850px;    
+}
+.grupo img{
+    position:relative ;
+    width: 709px;
+    right: 709px;
+    margin-left: 950px;
+    bottom: 700px;
+
+}
