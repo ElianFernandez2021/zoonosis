@@ -136,5 +136,21 @@
 }
 .verMas-home2{
     border-radius: 25px;
-    padding: 7px;
+    padding: 4px;
 }
+.verMas-home{
+    border-radius: 25px;
+    padding: 4px;
+    
+}
+.verMas-home:hover{
+    border-radius: 25px;
+    padding: 4px;
+    box-shadow: 1px 1px 1px 1px rgba(165, 255, 214, 1);
+}
+.verMas-home2:hover{
+    border-radius: 25px;
+    padding: 4px;
+    box-shadow: 1px 1px 1px 1px rgba(165, 255, 214, 1);
+}
+
