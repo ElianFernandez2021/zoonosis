@@ -11,8 +11,8 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "/src/views/index.html"))
 });
 
-app.get("/formulario", (req, res) => {
-    res.sendFile(path.join(__dirname, "/src/views/somos.html"))
+app.get("/somos", (req, res) => {
+    res.sendFile(path.join(__dirname, "/src/views/quienesSomos.html"))
 });
 
 app.listen(3000, ()=>
