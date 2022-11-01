@@ -154,3 +154,13 @@
     box-shadow: 1px 1px 1px 1px rgba(165, 255, 214, 1);
 }
 
+@media (max-width:400px) {
+    .conteinerPublicidad-home{
+        position: absolute;
+        opacity: 0;
+    }
+    .containerPerrosCards-home{
+        flex-direction: column;
+        margin: 50px;
+    }
+}
