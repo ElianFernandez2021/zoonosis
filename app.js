@@ -14,6 +14,10 @@ app.get("/", (req, res) => {
 app.get("/somos", (req, res) => {
     res.sendFile(path.join(__dirname, "/src/views/quienesSomos.html"))
 });
+app.get("/antesDespues", (req, res) => {
+    res.sendFile(path.join(__dirname, "/src/views/antesDespues.html"))
+});
+
 
 app.listen(3000, ()=>
     console.log("Servidor corriendo en: http://localhost:3000/")
