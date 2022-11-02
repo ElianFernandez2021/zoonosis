@@ -58,17 +58,29 @@
     margin-top: 30px;
 }
 .conteinerDerecho-home{
+    min-width: none;
     max-width: 45rem;
     margin: 0;
 }
-.banner-home img{
-    width: 45rem;
+.banner-home{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    min-width: none;
+    justify-content: center;
+    height: 10rem;
 }
+/* .banner-home img{
+    width: 100%;
+} */
 .porque-home h1{
     text-align: center;
+    width: 100%;
 }
 .decidiste-home{
     text-align: center;
+    width: 100%;
 }
 .containerPerrosCards-home{
     display: flex;
@@ -126,6 +138,10 @@
     display: flex;
     flex-direction: row;
 }
+.ubicacion2{
+    display: flex;
+    flex-direction: row;
+}
 .verMasContenedor-home2{
     align-items: center;
     margin: 0 auto;
@@ -154,13 +170,56 @@
     box-shadow: 1px 1px 1px 1px rgba(165, 255, 214, 1);
 }
 
-@media (max-width:400px) {
+@media (max-width:850px) {
     .conteinerPublicidad-home{
         position: absolute;
         opacity: 0;
     }
+    .porque-home{
+        text-align: center;
+        justify-content: center;
+        width: 78%;
+        min-width: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .porque-home p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto 0;
+    }
     .containerPerrosCards-home{
         flex-direction: column;
-        margin: 50px;
     }
+    .card1-home{
+        margin-bottom: 30px;
+    }
+    .conteinerDerecho-home{
+        margin:0 auto;
+    }
+    .ubicacion1{
+        display: flex;
+        flex-direction: column;
+    }
+    .ubicacion2{
+        position: absolute;
+        z-index: -9999;
+        opacity: 0;
+        top: 8px;
+    }
+}
+@media (max-width:600px) {
+.banner-home{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    min-width: none;
+    justify-content: center;
+    height: 5rem;
+}
 }
