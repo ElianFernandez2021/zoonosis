@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-antesydespues{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center
+}
+.contenedorImagenes-antesDespues{
+    display: flex;
+    flex-direction: row;
+    
+}
+.contenedorImagen1-antesDespues img{
+    width: 500px;
+    height: 600px;
+}
+.contenedorImagen1-antesDespues h2{
+    text-align: center;
+}
+.contenedorImagen2-antesDespues img{
+    width: 500px;
+    height: 600px;
+}
+.contenedorImagen2-antesDespues h2{
+    text-align: center;
+}
+.nombre-antesydespues{
+    font-size: 47px;
+    position: relative;
+    z-index: 99999;
+    left: -550px;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
