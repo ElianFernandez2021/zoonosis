@@ -1,0 +1,61 @@
+html{
+font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#titulo{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 95px;
+}
+body {
+    background: rgb(255,104,107);
+}
+.parrafo{
+font-family: Mukta Malar;
+font-size: 20px;
+font-weight: 500;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: center;
+margin-left: 70px;
+background:rgb(255, 166, 158);
+border-radius: 35px;
+margin-bottom: 35px;
+}
+.siluetas{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 5px;
+    width: 75px;
+    height: 75px;
+    bottom: 450px;
+}
+.salchicha{
+    position: relative;
+    left: 1050px;
+    width: 65px;
+}
+.marron{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin-left: 55px;
+    bottom: 830px;
+
+}
+.casita{
+    position: relative;
+    left: 1050px;
+    bottom: 850px;
+    width: 65px;
+}
+
+
+

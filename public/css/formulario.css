@@ -1,0 +1,398 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:rgb(132, 220, 198,1);
+}
+#titulo{
+    width: 400px;
+    margin: 40px 450px 40px 500px;
+    font-size: 28px;
+}
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;    
+    margin: 15px 60px 15px 45px ;
+}
+
+.edad{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 60px 15px 40px;
+}
+
+.animal{
+    
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 20px 15px 45px;
+}
+
+div .por{
+    
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 20px 15px 65px;
+    color: black;
+}
+.cuadros{
+    display: flex;
+    flex-direction: column;
+    border-color: transparent;
+    margin-left: 440px;
+    top: 30px;
+
+}
+.cuadros input{
+    border-radius: 35px;
+    margin-bottom: 24px;
+    width: 500px;
+    height: 25px;
+    background-color:floralwhite;
+    top: 900px;
+}
+div .domicilio {
+    
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 20px 15px 130px;
+}
+div .tipo{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 15px 20px 15px 100px;
+}
+div .casa{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .depto{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+
+}
+div .alca{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+
+}
+div .alde{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .estan{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 35px;
+}
+div .si{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+
+}
+div .no{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .hay{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 35px;
+}
+div .sy{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .ne{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 20px;
+}
+div .ingrese{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 35px;
+}
+div .patio{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 60px 15px 35px;
+}
+.perroFormulario img{ 
+    display: flex;
+    position:absolute;
+    z-index: -999;
+    width: 839px;
+    height: 1024px;
+    margin-left: 600px;
+    top: 300px;
+
+}
+.cuadro14{
+    position:absolute;
+    width: 500px;
+    height: 25px;
+    background-color:floralwhite;
+    border-radius: 30px;
+    border-color: transparent;
+    margin-left: 45px;
+    
+}
+.cuadro15{
+    position:absolute;
+    width: 500px;
+    height: 25px;
+    background-color:floralwhite;
+    border-radius: 30px;
+    border-color: transparent;
+    margin-left: 25px;
+}
+.cuadro6{
+    position:relative;
+    margin-left: 335px;    
+    
+}
+.cuadro7{
+    position:relative;
+    margin-left: 335px;  
+}
+.cuadro7{
+    position:relative;
+    margin-left: 335px;  
+}
+.cuadro8{
+    position:relative;
+    margin-left: 335px;  
+}
+.cuadro9{
+    position:relative;
+    margin-left: 335px;  
+}
+.cuadro10{
+    position:relative;
+    margin-left: 335px;  
+}
+.cuadro11{
+    position:relative;
+    margin-left: 335px;  
+}
+.cuadro12{
+    position:relative;
+    margin-left: 335px;  
+}
+.cuadro13{
+    position:relative;
+    margin-left: 335px;  
+}
+.huella img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 115px;
+}
+.huella1 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 160px;
+}
+.huella2 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 200px;
+}
+.huella3 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 242px;
+}
+.huella4 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 285px;
+}
+.huella5 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 325px;
+}
+.huella6 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 538px;
+}
+.huella7 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 662px;
+}
+.huella8 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 788px;
+}
+.huella9 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 832px;
+}
+.huella10 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 115px;
+    right: 1000px;
+}
+.huella11 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 165px;
+    right: 1000px;
+}
+.huella12 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 200px;
+    right: 1000px;
+}
+.huella13 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 242px;
+    right: 1000px;
+}
+.huella14 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 285px;
+    right: 1000px;
+}
+.huella15 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 325px;
+    right: 1000px;
+}
+.huella16 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 538px;
+    right: 830px;
+}
+.huella17 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 662px;
+    right: 950px;
+}
+.huella18 img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 930px;
+    top: 832px;
+    
+}
+.huella19 img{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 792px;
+    right: 950px;
+}
