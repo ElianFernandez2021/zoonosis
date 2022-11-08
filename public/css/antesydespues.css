@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 .body-antesydespues{
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgba(255, 104, 107, 1);
+    flex-direction: column;
     margin: 0 auto;
-    display: flex;
-    justify-content: center
 }
-.contenedorImagenes-antesDespues{
+.contenedorImagenes-antesDespues {
     display: flex;
+    width: 1000px;
+    height: 600px;
     flex-direction: row;
+    margin: 0 auto;
+    /*justify-content: center; */
     
 }
 .contenedorImagen1-antesDespues img{
@@ -34,4 +40,34 @@
     left: -550px;
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+.contenedorImagen1-antesDespues h2{
+    font-size: 47px;
+    position: relative;
+    top: -120px;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    z-index: 999999;
+}
+.contenedorImagen2-antesDespues h2{
+    font-size: 47px;
+    position: relative;
+    top: -120px;
+    z-index: 999999;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+.contenedorDescripcion{
+    display: flex;
+    background-color: white;
+    height: 100px;
+    width: 1000px;
+    position: relative;
+    top: -60px;
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+.contenedorDescripcion p{
+    display: flex;
+    font-size: 30px;
 }

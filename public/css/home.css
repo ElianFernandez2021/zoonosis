@@ -91,9 +91,9 @@
 }
 .card1-home{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 250px;
-    height: 370px;
+    height: 390px;
     
     margin:0px auto;
     flex-wrap: wrap;
@@ -152,12 +152,13 @@
 }
 .verMas-home2{
     border-radius: 25px;
-    padding: 4px;
+    padding: 3px;
 }
 .verMas-home{
+    display: flex;
     border-radius: 25px;
-    padding: 4px;
-    
+    padding: 3px;
+    margin: 0 auto;
 }
 .verMas-home:hover{
     border-radius: 25px;
